@@ -43,6 +43,7 @@ return require('packer').startup(function(use)
       ts_update()
     end,
   }
+  use('tpope/vim-fugitive')
 
   use {
     'VonHeikemen/lsp-zero.nvim',
