@@ -1,0 +1,3 @@
+- Requires Neovim 0.9 and more
+- Install Packer before
+- Install ripgrep for telescope
