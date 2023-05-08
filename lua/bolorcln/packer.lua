@@ -67,5 +67,8 @@ return require('packer').startup(function(use)
     }
   }
 
+  use('nvim-tree/nvim-tree.lua')
+
+  -- Markdown viewer
   use('ellisonleao/glow.nvim')
 end)
